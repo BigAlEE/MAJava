@@ -32,7 +32,7 @@ public class DrawingLines extends GraphicsProgram {
 		double x = e.getX();
 		double y = e.getY();
 		
-		GLine line = new GLine(x, y, x, y);
+		line = new GLine(x, y, x, y);
 		add(line);
 		
 	}
